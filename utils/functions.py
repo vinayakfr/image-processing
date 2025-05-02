@@ -28,7 +28,7 @@ def flip_image(image):
 def rotate_image(image, angle):
     if angle == 90:
         return cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
-    elif angle == 190:
+    elif angle == 180:
         return cv2.rotate(image, cv2.ROTATE_180)
     elif angle == 270:
         return cv2.rotate(image, cv2.ROTATE_90_COUNTERCLOCKWISE)
